@@ -1,0 +1,21 @@
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+body {
+
+    font-family: Arial
+
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu-left {
+    right: auto;
+    left: 0;
+}
