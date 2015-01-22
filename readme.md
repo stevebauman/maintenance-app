@@ -13,3 +13,9 @@
 To install the maintenance application, run the following composer command in the directory of your choice:
 
     composer create-project stevebauman/maintenance --stable="dev"
+    
+After it's installed, in the root directory, run the command:
+
+    php artisan maintenance:install
+   
+Follow the prompts to install the application.
