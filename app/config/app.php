@@ -134,7 +134,6 @@ return array(
 		'SimpleSoftwareIO\QrCode\QrCodeServiceProvider',
 		'JildertMiedema\LaravelPlupload\LaravelPluploadServiceProvider',
 		'Mews\Purifier\PurifierServiceProvider',
-		'Mews\Captcha\CaptchaServiceProvider',
 		'Baum\BaumServiceProvider'
 	),
 
@@ -210,7 +209,6 @@ return array(
 		'Plupload'  => 'JildertMiedema\LaravelPlupload\Facades\Plupload',
 		'QrCode'    => 'SimpleSoftwareIO\QrCode\Facades\QrCode',
 		'Purifier'  => 'Mews\Purifier\Facades\Purifier',
-		'Captcha'   => 'Mews\Captcha\Facades\Captcha',
 	),
 
 );
