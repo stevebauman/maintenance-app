@@ -85,9 +85,10 @@ return array(
 	*/
 
 	'custom' => array(
-		'attribute-name' => array(
-			'rule-name' => 'custom-message',
-		),
+        'g-recaptcha-response' => array(
+            'required' => 'You must click the reCaptcha checkbox to continue',
+            'captcha' => 'Captcha is invalid, are you a robot?',
+        ),
 	),
 
 	/*
