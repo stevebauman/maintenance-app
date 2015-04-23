@@ -61,6 +61,20 @@ require $framework.'/Illuminate/Foundation/start.php';
 
 /*
 |--------------------------------------------------------------------------
+| Use daily log files
+|--------------------------------------------------------------------------
+|
+| Here we will set the logger to use daily log files instead of using
+| one large file
+|
+*/
+
+$logPath = sprintf(storage_path('logs/%s'), 'laravel.log');
+
+Log::useDailyFiles($logPath);
+
+/*
+|--------------------------------------------------------------------------
 | Return The Application
 |--------------------------------------------------------------------------
 |
