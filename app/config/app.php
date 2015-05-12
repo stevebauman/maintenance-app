@@ -128,12 +128,12 @@ return array(
 		'Stevebauman\EloquentTable\PaginationServiceProvider',
 		'Stevebauman\EloquentTable\EloquentTableServiceProvider',
 		'Stevebauman\Maintenance\MaintenanceServiceProvider',
+        'Stevebauman\Purify\PurifyServiceProvider',
 
 		'Cartalyst\Sentry\SentryServiceProvider',
 		'Dmyers\Storage\StorageServiceProvider',
 		'SimpleSoftwareIO\QrCode\QrCodeServiceProvider',
 		'JildertMiedema\LaravelPlupload\LaravelPluploadServiceProvider',
-		'Mews\Purifier\PurifierServiceProvider',
 		'Baum\BaumServiceProvider'
 	),
 
@@ -203,12 +203,12 @@ return array(
 		'View'              => 'Illuminate\Support\Facades\View',
 
 		'Corp' => 'Stevebauman\Corp\Facades\Corp',
+        'Purify' => 'Stevebauman\Purify\PurifyServiceProvider',
 
 		'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'Storage' => 'Dmyers\Storage\Storage',
 		'Plupload'  => 'JildertMiedema\LaravelPlupload\Facades\Plupload',
 		'QrCode'    => 'SimpleSoftwareIO\QrCode\Facades\QrCode',
-		'Purifier'  => 'Mews\Purifier\Facades\Purifier',
 	),
 
 );
