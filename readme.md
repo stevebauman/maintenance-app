@@ -12,7 +12,7 @@
 
 To install the maintenance application, run the following composer command in the directory of your choice:
 
-    composer create-project stevebauman/maintenance --stability="dev"
+    composer create-project stevebauman/maintenance-app --stability="dev"
     
 After it's installed, in the root directory, run the command:
 
