@@ -122,13 +122,13 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+        'Stevebauman\Purify\PurifyServiceProvider',
 		'Stevebauman\Corp\CorpServiceProvider',
 		'Stevebauman\CoreHelper\CoreHelperServiceProvider',
 		'Stevebauman\Inventory\InventoryServiceProvider',
 		'Stevebauman\EloquentTable\PaginationServiceProvider',
 		'Stevebauman\EloquentTable\EloquentTableServiceProvider',
-		'Stevebauman\Maintenance\MaintenanceServiceProvider',
-        'Stevebauman\Purify\PurifyServiceProvider',
+        'Stevebauman\Maintenance\MaintenanceServiceProvider',
 
 		'Cartalyst\Sentry\SentryServiceProvider',
 		'Dmyers\Storage\StorageServiceProvider',
