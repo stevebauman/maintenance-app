@@ -134,7 +134,9 @@ return array(
 		'Dmyers\Storage\StorageServiceProvider',
 		'SimpleSoftwareIO\QrCode\QrCodeServiceProvider',
 		'JildertMiedema\LaravelPlupload\LaravelPluploadServiceProvider',
-		'Baum\BaumServiceProvider'
+        'DaveJamesMiller\Breadcrumbs\ServiceProvider',
+        'Arcanedev\NoCaptcha\Laravel\ServiceProvider',
+		'Baum\BaumServiceProvider',
 	),
 
 	/*
@@ -202,13 +204,15 @@ return array(
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
 
-		'Corp' => 'Stevebauman\Corp\Facades\Corp',
-        'Purify' => 'Stevebauman\Purify\PurifyServiceProvider',
+		'Corp'          => 'Stevebauman\Corp\Facades\Corp',
+        'Purify'        => 'Stevebauman\Purify\PurifyServiceProvider',
 
-		'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
-		'Storage' => 'Dmyers\Storage\Storage',
-		'Plupload'  => 'JildertMiedema\LaravelPlupload\Facades\Plupload',
-		'QrCode'    => 'SimpleSoftwareIO\QrCode\Facades\QrCode',
+		'Sentry'        => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+		'Storage'       => 'Dmyers\Storage\Storage',
+		'Plupload'      => 'JildertMiedema\LaravelPlupload\Facades\Plupload',
+		'QrCode'        => 'SimpleSoftwareIO\QrCode\Facades\QrCode',
+        'Breadcrumbs'   => 'DaveJamesMiller\Breadcrumbs\Facade',
+        'Captcha'       => 'Arcanedev\NoCaptcha\Laravel\Facade',
 	),
 
 );
