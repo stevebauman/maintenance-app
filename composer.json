@@ -6,7 +6,7 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
-	  	"stevebauman/maintenance": "dev-master"
+	  	"stevebauman/maintenance": "dev-master-l4"
 	},
 	"autoload": {
 		"classmap": [
